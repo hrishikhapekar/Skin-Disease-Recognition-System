@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Models / large artifacts
+# (keep source code tracked, ignore large binaries)
+models/**/*.h5
+models/**/*.pkl
+models/**/*.joblib
+models/**/*.npz
+models/**/*.keras
+
+# Sometimes training outputs / intermediates
+models/**/checkpoints/
+models/**/logs/
+models/**/tmp/
+

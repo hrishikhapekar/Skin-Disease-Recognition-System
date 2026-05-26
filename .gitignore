@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# Models (large binary files)
+# Ignore everything under backend/models except the small JSON/text files.
+backend/models/*
+!backend/models/README.md
+!backend/models/class_indices.json
+!backend/models/image_model/
+
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
